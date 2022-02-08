@@ -1,0 +1,28 @@
+.content-middle-in,
+.content-bottom-in {
+    padding: 2em 0;
+}
+
+.diplomas {
+    margin-top: -5px;
+    background: #7ce0e6;
+}
+
+.marcas img {
+    background: white;
+    padding: 10px;
+    height: 150px;
+    width: 100%;
+    object-fit: contain;
+    border-width: 15px;
+    border-style: solid;
+    border-color: #585753;
+}
+
+img {
+    vertical-align: middle;
+}
+
+img {
+    border: 0;
+}

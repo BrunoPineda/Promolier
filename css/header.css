@@ -1,0 +1,254 @@
+/*By Brucorp©*/
+
+body {
+    background: #65c2c7;
+    font-family: 'eras-demi-itc-regular', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    /*separacion del texto*/
+    margin: 0;
+}
+
+h1 {
+    font-size: 25px;
+    line-height: 1.3em;
+}
+
+p {
+    margin-bottom: 100px;
+}
+
+
+/*normal*/
+
+.header {
+    background: #333;
+    color: white;
+    padding: 1rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+
+/* header code */
+
+.main {
+    padding-top: 18rem;
+    /* altura desde el header*/
+}
+
+.container-promotion {
+    background: rgb(62, 175, 171);
+    width: auto;
+    height: 35px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.container-first {
+    background: #e9e1e1;
+}
+
+.header-icons {
+    float: right;
+    align-items: center;
+    color: black;
+    margin-top: 40px;
+    margin-right: 20px;
+    font-size: 50px;
+}
+
+.header-icons i {
+    color: black;
+    margin-top: 8px;
+}
+
+.logo {
+    border-radius: 15px;
+}
+
+.logo img {
+    width: 320px;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    background: red;
+    color: white;
+    padding: 2rem 0;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    letter-spacing: 15px;
+    font-size: 1.3em;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.navigation ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 15px;
+}
+
+.navigation ul li a:hover {
+    background: rgb(27, 164, 199);
+}
+
+.container-promotion p {
+    text-align: center;
+    font-family: 'eras-demi-itc-regular', sans-serif;
+    font-size: 16px;
+}
+
+
+/*header responsive*/
+
+.container-promotion2 {
+    width: auto;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    padding: 0;
+    display: none;
+}
+
+.header2 {
+    background: red;
+    color: white;
+    padding: 0;
+    height: 150px;
+}
+
+.logo2 img {
+    width: 240px;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+.header-icons2 {
+    float: right;
+    align-items: center;
+    color: black;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+
+/* header code responsive*/
+
+@media (max-width: 870px) {
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+    .navigation ul {
+        display: none;
+    }
+    .navigation ul.show {
+        display: block;
+    }
+    .navigation {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .navigation ul li {
+        display: block;
+    }
+    .navigation ul li a {
+        display: block;
+        padding: 0.5rem 0;
+        transition: all 0.4s linear;
+        border-radius: 15px;
+    }
+    .navigation ul li a:hover {
+        background: rgb(27, 164, 199);
+    }
+}
+
+@media (max-width: 636px) {
+    .logo img {
+        width: 220px;
+        ;
+    }
+}
+
+@media (max-width: 550px) {
+    .main,
+    .main2 {
+        padding-top: 30rem;
+    }
+    .header-icons,
+    .header-icons2 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 502px) {
+    .logo img {
+        width: 220px;
+        ;
+    }
+}
+
+@media (max-width: 461px) {
+    .logo img {
+        width: 220px;
+        ;
+    }
+    .header-icons2 {
+        float: right;
+        align-items: center;
+        color: black;
+        margin-top: 0px;
+        margin-right: 20px;
+        font-size: 20px;
+    }
+}
+
+
+/* footer code*/
+
+.footer {
+    background: #c7c7c7;
+    padding: 4rem 0;
+    text-align: center;
+}
